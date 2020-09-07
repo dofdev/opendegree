@@ -1,0 +1,27 @@
+.concept {
+  cursor: pointer;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  background-color: white;
+  border-bottom: 2px solid lightgray;
+  -webkit-user-select: none;
+}
+
+.concept div:first-child {
+  
+}
+
+.concept div:last-child {
+  display: none;
+}
+
+.concept blockquote {
+  font-size: 0.85em;
+  color: rgb(128, 128, 128);
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
